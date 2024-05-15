@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* Add support for Wagtail 6.1 (Katherine Domingo)
+
 ## 0.7.0 (06.02.2024)
 
 * Add support for Wagtail 5.2 (Josh Munn)
