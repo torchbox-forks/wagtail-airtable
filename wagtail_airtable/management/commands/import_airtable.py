@@ -1,4 +1,4 @@
-import sys
+import json
 from importlib import import_module
 from logging import getLogger
 
@@ -152,7 +152,7 @@ class Importer:
                 setattr(instance, field_name, value)
         try:
             if instance.revisions.count():
-                before = instance.revisions.last().content_json
+                before = instance.revisions.last().content
             else:
                 before = instance.to_json()
         except AttributeError:
@@ -170,7 +170,7 @@ class Importer:
                 if instance.locked:
                     self.debug_message("\t\t\t Page IS locked. Skipping Page save.")
                     self.skipped = self.skipped + 1
-                elif before == instance.to_json():
+                elif before == json.loads(instance.to_json()):
                     self.debug_message("\t\t\t Page didn't change. Skipping Page save.")
                     self.skipped = self.skipped + 1
                 else:
