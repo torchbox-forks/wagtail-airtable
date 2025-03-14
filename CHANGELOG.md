@@ -1,5 +1,10 @@
 # Changelog
 
+## unreleased
+
+* Add CI testing for Wagtail 6.4 (Nick Moreton)
+* Ensure CI testing covers all Wagtail/Django versions (Nick Moreton)
+
 ## 1.0.0 (16.12.2024)
 
 * **Breaking**: Callables passed as `PARENT_PAGE_ID` no longer accept an `instance` argument (Matt Westcott)
