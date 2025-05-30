@@ -2,6 +2,10 @@
 
 ## unreleased
 
+* Drop CI testing for Django 5.0 (Nick Moreton)
+* Add CI testing for Django 5.2 (Nick Moreton)
+* Drop CI testing for Wagtail 6.0, 6.1 & 6.2 (Nick Moreton)
+* Add CI testing for Wagtail 7.0 (Nick Moreton)
 * Add CI testing for Wagtail 6.4 (Nick Moreton)
 * Ensure CI testing covers all Wagtail/Django versions (Nick Moreton)
 
