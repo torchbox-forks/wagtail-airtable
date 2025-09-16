@@ -22,25 +22,26 @@ classifiers=[
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Framework :: Django",
-    "Framework :: Django :: 4",
-    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 4.2",
     "Framework :: Django :: 5.1",
+    "Framework :: Django :: 5.2",
     "Framework :: Wagtail",
     "Framework :: Wagtail :: 5",
     "Framework :: Wagtail :: 6",
+    "Framework :: Wagtail :: 7",
 ]
 
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 dependencies = [
-    "Wagtail>=5.2",
+    "Wagtail>=6.3",
     "Django>=4.2",
-    "pyairtable>=2.3,<3",
-    "djangorestframework>=3.11.0"
+    "pyairtable>=3,<4",
+    "djangorestframework>=3.16.1"
 ]
 
 [project.optional-dependencies]
 testing = [
-    "tox>=3.27"
+    "tox>=4.30.2"
 ]
 
 [project.urls]
