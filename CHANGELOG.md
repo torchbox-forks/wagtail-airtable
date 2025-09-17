@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* Wagtail 7.0 & 7.1 maintenance
+
 ## 1.0.0 (16.12.2024)
 
 * **Breaking**: Callables passed as `PARENT_PAGE_ID` no longer accept an `instance` argument (Matt Westcott)
