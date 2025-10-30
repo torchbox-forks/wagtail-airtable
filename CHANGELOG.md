@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+* Wagtail 7.2 maintenance
 * Wagtail 7.0 & 7.1 maintenance
 
 ## 1.0.0 (16.12.2024)
