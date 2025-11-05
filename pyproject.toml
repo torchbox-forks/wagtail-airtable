@@ -33,7 +33,7 @@ classifiers=[
 
 requires-python = ">=3.10"
 dependencies = [
-    "Wagtail>=6.3",
+    "Wagtail>=7.0",
     "Django>=4.2",
     "pyairtable>=3,<4",
     "djangorestframework>=3.16.1"
